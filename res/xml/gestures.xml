@@ -20,7 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/gesture_preference_title">
 
-    <lineageos.preference.LineagePartsPreference
+    <!--<lineageos.preference.LineagePartsPreference
         android:key="touchscreen_gesture_settings"
         settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES" />
 
@@ -31,7 +31,7 @@
             settings:replacesKey="touchscreen_gesture_settings"
             settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
         <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
-    </lineageos.preference.RemotePreference>
+    </lineageos.preference.RemotePreference>-->
 
     <Preference
         android:key="gesture_swipe_down_fingerprint_input_summary"
